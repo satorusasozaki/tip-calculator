@@ -9,6 +9,7 @@ Completed:
 * [x] Required: User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 * [x] Required: Settings page to change the default tip percentage.
 * [x] Optional: Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user does not have to tap anywhere to use this app. Just launch the app and start typing.
+
 ## Additional Description
 * used AutoLayout
 * used two cocoapods libraries: [FontAwesome.swift](https://github.com/thii/FontAwesome.swift) and [UIColor-Hex-Swift](https://github.com/yeahdongcn/UIColor-Hex-Swift)
