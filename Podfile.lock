@@ -1,0 +1,13 @@
+PODS:
+  - FontAwesome.swift (0.7.0)
+  - UIColor_Hex_Swift (1.8)
+
+DEPENDENCIES:
+  - FontAwesome.swift
+  - UIColor_Hex_Swift (~> 1.8)
+
+SPEC CHECKSUMS:
+  FontAwesome.swift: c6e30a1a81716306ff9c81f2d38dda88ac5b8294
+  UIColor_Hex_Swift: a66b9d5f6e8fddbd9fe32996504f0b7e9d20d680
+
+COCOAPODS: 0.39.0

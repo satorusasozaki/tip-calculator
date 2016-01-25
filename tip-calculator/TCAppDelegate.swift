@@ -12,10 +12,29 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var navigationController: TCNavigationController?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        let rvc: TCMainViewController = TCMainViewController()
+        navigationController = TCNavigationController(rootViewController: rvc)
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window!.rootViewController = navigationController
+        self.window!.makeKeyAndVisible()
+        let defaultPercentages = [0.18,0.2,0.22]
+        let percentageKey = "percentage"
+        let ud = NSUserDefaults.standardUserDefaults()
+        ud.setObject(defaultPercentages, forKey: percentageKey)
+        let userInput = 0
+        let userInputKey = "userInput"
+        ud.setObject(userInput, forKey: userInputKey)
+        let tipAmount = 0
+        let tipAmountKey = "tipAmount"
+        ud.setObject(tipAmount, forKey: tipAmountKey)
+        let totalAmount = 0
+        let totalAmountKey = "totalAmount"
+        ud.setObject(totalAmount, forKey: totalAmountKey)
+        
+        ud.synchronize()
         return true
     }
 
