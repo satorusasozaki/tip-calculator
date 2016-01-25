@@ -13,5 +13,6 @@ Completed:
 * used AutoLayout
 * used two cocoapods libraries: [FontAwesome.swift](https://github.com/thii/FontAwesome.swift) and [UIColor-Hex-Swift](https://github.com/yeahdongcn/UIColor-Hex-Swift)
 * created programmatically without using storyboard
+
 ![Video Walkthrough](tip-calculator.gif)
 
