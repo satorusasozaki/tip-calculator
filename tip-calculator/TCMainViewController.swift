@@ -53,7 +53,6 @@ class TCMainViewController: UIViewController, UITextFieldDelegate {
         ud!.setObject(billField!.text, forKey: userInputKey!)
         ud!.setObject(tipField!.text, forKey: tipAmountKey!)
         ud!.setObject(totalField!.text, forKey: totalAmountKey!)
-        
         let settingViewController = TCSettingViewController()
         self.navigationController?.pushViewController(settingViewController, animated: true)
         self.view.endEditing(true)
